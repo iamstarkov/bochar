@@ -1,28 +1,40 @@
 {
-  "name": "bauchara",
-  "preferGlobal": true,
-  "version": "0.0.6",
-  "author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
-  "description": "30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!",
-  "keywords": [
-    "shower",
-    "markdown",
-    "static",
-    "slideshow",
-    "presentation"
-  ],
-  "bin": {
-    "bauchara": "./node_modules/cleaver/bin/cleaver"
-  },
-  "scripts": {
-    "postinstall": "grunt copy:postinstall"
-  },
-  "main": "./node_modules/cleaver/lib/cleaver",
-  "dependencies": {
-    "cleaver": "0.4.0",
-    "grunt": "0.4.1",
-    "grunt-cli": "0.1.9",
-    "grunt-contrib-copy": "0.4.1"
-  },
-  "license": "MIT"
+	"name": "bauchara",
+	"preferGlobal": true,
+	"version": "0.0.7",
+	"author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
+
+	"description": "30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!",
+	"keywords": [
+		"shower",
+		"markdown",
+		"static",
+		"slideshow",
+		"presentation"
+	],
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/matmuchrapna/bauchera.git"
+	},
+	"homepage": {
+		"url": "http://matmuchrapna.github.io/bauchera/"
+	},
+	"bugs": {
+		"url": "http://github.com/matmuchrapna/bauchera/issues"
+	},
+	"scripts": {
+		"postinstall": "grunt copy:postinstall"
+	},
+	
+	"bin": {
+		"bauchara": "./node_modules/cleaver/bin/cleaver"
+	},
+	"main": "./node_modules/cleaver/lib/cleaver",
+	"dependencies": {
+		"cleaver": "0.4.0",
+		"grunt": "0.4.1",
+		"grunt-cli": "0.1.9",
+		"grunt-contrib-copy": "0.4.1"
+	},
+	"license": "MIT"
 }
