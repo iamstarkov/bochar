@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 	
 	grunt.initConfig({
 		copy: {
-			templates: {
+			postinstall: {
 				files: [
 					{
 						src: './templates/default.mustache',
@@ -19,11 +19,5 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-copy');
 
-	/*
-	grunt.registerTask('copy', [
-		'copy'
-		]
-	);
-	*/
 
 };
