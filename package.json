@@ -1,7 +1,7 @@
 {
 	"name": "bauchara",
 	"preferGlobal": true,
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
 
 	"description": "30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!",
@@ -12,14 +12,12 @@
 		"slideshow",
 		"presentation"
 	],
-	
+
 	"repository": {
 		"type": "git",
 		"url": "http://github.com/matmuchrapna/bauchara.git"
 	},
-	"homepage": {
-		"url": "http://matmuchrapna.github.io/bauchara/"
-	},
+	"homepage": "http://matmuchrapna.github.io/bauchara/",
 	"bugs": {
 		"url": "http://github.com/matmuchrapna/bauchara/issues"
 	},
