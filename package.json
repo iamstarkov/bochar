@@ -1,7 +1,7 @@
 {
   "name": "bauchara",
   "preferGlobal": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Vladimir Starkov <matmuchrapna@gmail.com>",
   "description": "30-second slideshows for hackers with shower",
   "keywords":[
@@ -15,7 +15,7 @@
     "bauchara": "./node_modules/cleaver/bin/cleaver"
   },
   "scripts": {
-    "postinstall": "./scripts/postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js"
   },
   "main": "./node_modules/cleaver/lib/cleaver",
   "dependencies" : {
