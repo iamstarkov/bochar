@@ -1,7 +1,7 @@
 {
   "name": "bauchara",
   "preferGlobal": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Vladimir Starkov <matmuchrapna@gmail.com>",
   "description": "30-second slideshows for hackers with shower",
   "keywords":[
