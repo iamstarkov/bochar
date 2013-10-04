@@ -1,10 +1,10 @@
 {
   "name": "bauchara",
   "preferGlobal": true,
-  "version": "0.0.4",
-  "author": "Vladimir Starkov <matmuchrapna@gmail.com>",
+  "version": "0.0.5",
+  "author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
   "description": "30-second slideshows for hackers with shower",
-  "keywords":[
+  "keywords": [
     "shower",
     "markdown",
     "static",
@@ -15,11 +15,14 @@
     "bauchara": "./node_modules/cleaver/bin/cleaver"
   },
   "scripts": {
-    "postinstall": "node ./scripts/postinstall.js"
+    "postinstall": "grunt copy"
   },
   "main": "./node_modules/cleaver/lib/cleaver",
-  "dependencies" : {
-    "cleaver": "0.4.0"
+  "dependencies": {
+    "cleaver": "0.4.0",
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.9",
+    "grunt-contrib-copy": "0.4.1"
   },
   "license": "MIT"
 }
