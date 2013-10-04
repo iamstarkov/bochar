@@ -1,7 +1,7 @@
 {
 	"name": "bauchara",
 	"preferGlobal": true,
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
 
 	"description": "30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!",
