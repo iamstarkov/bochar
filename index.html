@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Shower Ribbon + Cleaver = Bauchara</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	<link rel="stylesheet" href="http://shwr.me/shower/themes/ribbon/styles/screen.css">
+	<style type="text/css">
+	    
+	</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Shower Ribbon + Cleaver = Bauchara</h1>
+	</header>
+
+	  <section class="slide"><div>
+    <h2>Bauchara</h2>
+
+<h3>30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!</h3>
+  </div></section>
+  <section class="slide"><div>
+    <h2>What is Bauchera?</h2>
+
+<p>Bauchera is a <a href="http://jdan.github.io/cleaver/">Cleaver</a> wrapped in <a href="https://github.com/shower/shower">Shower</a> <a href="http://shwr.me/shower/themes/ribbon/">Ribbon</a></p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>What is Bauchera?</h2>
+
+<p>So let's talk about <em>Cleaver</em>.</p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>What is Cleaver?</h2>
+
+<p>Cleaver turns the following:</p>
+
+<pre><code>title: My Slideshow
+output: slideshow.html
+--
+## Hello, world!
+### This is my slideshow
+</code></pre>
+  </div></section>
+  <section class="slide"><div>
+    <h2>What is Cleaver?</h2>
+
+<p><strong>Into a slideshow like this slideshow</strong>.</p>
+
+<p>Cleaver uses a simple <a href="http://daringfireball.net/projects/markdown/">Markdown</a>
+format.</p>
+
+<ul>
+<li>Simply write your slides in Markdown</li>
+<li>... and separate them with <code>--</code></li>
+</ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>What is Cleaver?</h2>
+
+<p>Cleaver comes with a stylesheet that looks good by default, but that you
+can extend at your heart's desire.</p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Return to Bauchera</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Getting Bauchera</h2>
+
+<p>Get Bauchera from NPM</p>
+
+<p><code>npm install -g bauchera</code></p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Generation with bauchera</h2>
+
+<p>And run it against your shiny new presentation</p>
+
+<p><code>bauchera path/to/presentation.md</code></p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Continuous generation with bauchera</h2>
+
+<p>If you want watching your md-file and regenerate presentation, just add watch command:</p>
+
+<p><code>bauchera watch path/to/presentation.md</code></p>
+
+<p>Next we'll talk about setting up a quick presentation.</p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Metadata</h2>
+
+<p>Each presentation contains metadata, for example:</p>
+
+<pre><code>title: Shower Ribbon + Cleaver = Bauchara
+author:
+  name: "Vladimir Starkov"
+  twitter: "@matmuchrapna"
+  url: "http://vstarkov.com"
+output: index.html
+</code></pre>
+
+<p>Let's break this chunk down on the next slide.</p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Metadata Fields</h2>
+
+<ul>
+<li><strong>title</strong>: The title of your presentation</li>
+<li><strong>author</strong>: Some fields to populate an optional author slide at the end</li>
+<li><strong>style</strong>: An optional external stylesheet to load</li>
+<li><strong>output</strong>: Where to save your file (<em>default: FILENAME-cleaver.html</em>)</li>
+</ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Metadata Fields</h2>
+
+<ul>
+<li><strong>controls</strong>: Option to render navigation buttons (<em>default: true</em>)</li>
+<li><strong>agenda</strong>: Option whether or not to insert an agenda slide (similar to a table of contents) after the title (<em>default: false</em>)</li>
+<li><strong>encoding</strong>: A specified content encoding (<em>default: utf-8</em>)</li>
+</ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Metadata Fields (Advanced)</h2>
+
+<ul>
+<li><strong>template</strong>: Location of the template used to render the slides (default:
+<em>default.mustache</em>)</li>
+<li><strong>layout</strong>: Location of the layout template used to render everything (default:
+<em>layout.mustache</em>)</li>
+</ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Other Slides</h2>
+
+<p>Slides are separated by <code>--</code> and are written in markdown.</p>
+
+<p>Use <code>h2</code> to define slide's title (denoted <strong>##</strong>)</p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Author Slide</h2>
+
+<p>If your metadata contains author information (name, url, twitter), an author
+slide will be inserted at the end of your presentation.</p>
+  </div></section>
+  <section class="slide"><div>
+    <h2>That's all, folks!</h2>
+
+<p>Seriously, that's it. Bauchera is perfect for quick slideshows that you can
+create using a comfortable format with Shower ribbon template.
+No extra software or text boxes required.</p>
+
+<p>Check us out <a href="http://github.com/matmuchrapna/bauchera">on GitHub</a>.</p>
+  </div></section>
+  <section class="slide"><div>
+    <div class="author">
+  <h1 class="name">Vladimir Starkov</h1>
+  <h3 class="twitter">
+    <a href="http://twitter.com/@matmuchrapna" tabindex="-1">@matmuchrapna</a>
+  </h3>
+  <h3 class="url">
+    <a href="http://vstarkov.com" tabindex="-1">http://vstarkov.com</a>
+  </h3>
+</div>
+
+  </div></section>
+
+
+	<div class="progress"><div></div></div>
+	<script src="http://shwr.me/shower/shower.min.js"></script>
+</body>
+</html>
