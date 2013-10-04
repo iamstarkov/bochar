@@ -1,9 +1,9 @@
 {
   "name": "bauchara",
   "preferGlobal": true,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
-  "description": "30-second slideshows for hackers with shower",
+  "description": "30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!",
   "keywords": [
     "shower",
     "markdown",
@@ -15,7 +15,7 @@
     "bauchara": "./node_modules/cleaver/bin/cleaver"
   },
   "scripts": {
-    "postinstall": "grunt copy"
+    "postinstall": "grunt copy:postinstall"
   },
   "main": "./node_modules/cleaver/lib/cleaver",
   "dependencies": {
