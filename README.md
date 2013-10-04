@@ -3,13 +3,13 @@
 
 --
 
-## What is Bauchera?
+## What is Bauchara?
 
-Bauchera is a [Cleaver](http://jdan.github.io/cleaver/) wrapped in [Shower](https://github.com/shower/shower) [Ribbon](http://shwr.me/shower/themes/ribbon/)
+Bauchara is a [Cleaver](http://jdan.github.io/cleaver/) wrapped in [Shower](https://github.com/shower/shower) [Ribbon](http://shwr.me/shower/themes/ribbon/)
 
 --
 
-## What is Bauchera?
+## What is Bauchara?
 
 So let's talk about *Cleaver*.
 
@@ -46,31 +46,31 @@ can extend at your heart's desire.
 
 --
 
-## Return to Bauchera
+## Return to Bauchara
 
 --
 
-## Getting Bauchera
+## Getting Bauchara
 
-Get Bauchera from NPM
+Get Bauchara from NPM
 
-`npm install -g bauchera`
+`npm install -g bauchara`
 
 --
 
-## Generation with bauchera
+## Generation with bauchara
 
 And run it against your shiny new presentation
 
-`bauchera path/to/presentation.md`
+`bauchara path/to/presentation.md`
 
 --
 
-## Continuous generation with bauchera
+## Continuous generation with bauchara
 
 If you want watching your md-file and regenerate presentation, just add watch command:
 
-`bauchera watch path/to/presentation.md`
+`bauchara watch path/to/presentation.md`
 
 Next we'll talk about setting up a quick presentation.
 
@@ -132,8 +132,8 @@ slide will be inserted at the end of your presentation.
 
 ## That's all, folks!
 
-Seriously, that's it. Bauchera is perfect for quick slideshows that you can
+Seriously, that's it. Bauchara is perfect for quick slideshows that you can
 create using a comfortable format with Shower ribbon template.
 No extra software or text boxes required.
 
-Check us out [on GitHub](http://github.com/matmuchrapna/bauchera).
+Check us out [on GitHub](http://github.com/matmuchrapna/bauchara).

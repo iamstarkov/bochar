@@ -14,13 +14,13 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/matmuchrapna/bauchera.git"
+		"url": "http://github.com/matmuchrapna/bauchara.git"
 	},
 	"homepage": {
-		"url": "http://matmuchrapna.github.io/bauchera/"
+		"url": "http://matmuchrapna.github.io/bauchara/"
 	},
 	"bugs": {
-		"url": "http://github.com/matmuchrapna/bauchera/issues"
+		"url": "http://github.com/matmuchrapna/bauchara/issues"
 	},
 	"scripts": {
 		"postinstall": "grunt copy:postinstall"
