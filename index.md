@@ -145,3 +145,19 @@ create using a comfortable format with Shower ribbon template.
 No extra software or text boxes required.
 
 Check us out [on GitHub](http://github.com/matmuchrapna/bauchara).
+
+![](https://secure.gaug.es/track.gif?h[site_id]=524f5b6cf5a1f577a2000180&h[resource]=https%3A%2F%2Fgithub.com%2Fmatmuchrapna%2Fbauchara%2FREADME.md)
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '524f5b6cf5a1f577a2000180');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
