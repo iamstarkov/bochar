@@ -1,15 +1,15 @@
-## Bauchara
+## Bochar
 ### 30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!
 
 --
 
-## What is Bauchara?
+## What is Bochar?
 
-Bauchara is a [Cleaver](http://jdan.github.io/cleaver/) wrapped in [Shower](https://github.com/shower/shower) [Ribbon](http://shwr.me/shower/themes/ribbon/)
+Bochar <span class="font-family: monospace;">[bɔʧar]</span> is a [Cleaver](http://jdan.github.io/cleaver/) wrapped in [Shower](https://github.com/shower/shower) [Ribbon](http://shwr.me/shower/themes/ribbon/).
 
 --
 
-## What is Bauchara?
+## What is Bochar?
 
 So let's talk about *Cleaver*.
 
@@ -35,7 +35,7 @@ Cleaver uses a simple [Markdown](http://daringfireball.net/projects/markdown/)
 format.
 
 * Simply write your slides in Markdown
-* ... and separate them with `--`
+* … and separate them with `--`
 
 --
 
@@ -46,31 +46,31 @@ can extend at your heart's desire.
 
 --
 
-## Return to Bauchara
+## Return to Bochar
 
 --
 
-## Getting Bauchara
+## Getting Bochar
 
-Get Bauchara from NPM
+Get Bochar from NPM
 
-`npm install -g bauchara`
+`npm install -g bochar`
 
 --
 
-## Generation with bauchara
+## Generation with Bochar
 
 And run it against your shiny new presentation
 
-`bauchara path/to/presentation.md`
+`bochar path/to/presentation.md`
 
 --
 
-## Continuous generation with bauchara
+## Continuous generation with Bochar
 
 If you want watching your md-file and regenerate presentation, just add watch command:
 
-`bauchara watch path/to/presentation.md`
+`bochar watch path/to/presentation.md`
 
 Next we'll talk about setting up a quick presentation.
 
@@ -80,7 +80,7 @@ Next we'll talk about setting up a quick presentation.
 
 Each presentation contains metadata, for example:
 
-    title: Shower Ribbon + Cleaver = Bauchara
+    title: Shower Ribbon + Cleaver = Bochar
     author:
       name: "Vladimir Starkov"
       twitter: "@matmuchrapna"
@@ -132,8 +132,24 @@ slide will be inserted at the end of your presentation.
 
 ## That's all, folks!
 
-Seriously, that's it. Bauchara is perfect for quick slideshows that you can
+Seriously, that's it. Bochar is perfect for quick slideshows that you can
 create using a comfortable format with Shower ribbon template.
 No extra software or text boxes required.
 
-Check us out [on GitHub](http://github.com/matmuchrapna/bauchara).
+Check us out [on GitHub](http://github.com/matmuchrapna/bochar).
+
+![](https://secure.gaug.es/track.gif?h[site_id]=524f5b6cf5a1f577a2000180&h[resource]=https%3A%2F%2Fgithub.com%2Fmatmuchrapna%2Fbochar%2FREADME.md)
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '524f5b6cf5a1f577a2000180');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
