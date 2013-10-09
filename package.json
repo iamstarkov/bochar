@@ -1,7 +1,7 @@
 {
-	"name": "bauchara",
+	"name": "bochar",
 	"preferGlobal": true,
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
 
 	"description": "30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!",
@@ -15,18 +15,20 @@
 
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/matmuchrapna/bauchara.git"
+		"url": "git@github.com:matmuchrapna/bochar.git"
 	},
-	"homepage": "http://matmuchrapna.github.io/bauchara/",
+	"homepage": "http://matmuchrapna.github.io/bochar/",
+	
 	"bugs": {
-		"url": "http://github.com/matmuchrapna/bauchara/issues"
+		"url": "http://github.com/matmuchrapna/bochar/issues"
 	},
+	
 	"scripts": {
 		"postinstall": "grunt copy:postinstall"
 	},
 	
 	"bin": {
-		"bauchara": "./node_modules/cleaver/bin/cleaver"
+		"bochar": "./node_modules/cleaver/bin/cleaver"
 	},
 	"main": "./node_modules/cleaver/lib/cleaver",
 	"dependencies": {
