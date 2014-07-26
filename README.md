@@ -9,7 +9,7 @@ Bochar <span class="font-family: monospace;">[bɔʧar]</span> is a [Cleaver](htt
 
 --
 
-## What is Bochar?
+## What is Bochar?
 
 So let's talk about *Cleaver*.
 
