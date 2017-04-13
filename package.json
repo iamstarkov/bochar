@@ -32,10 +32,10 @@
 	},
 	"main": "./node_modules/cleaver/lib/cleaver",
 	"dependencies": {
-		"cleaver": "0.4.0",
-		"grunt": "0.4.1",
-		"grunt-cli": "0.1.9",
-		"grunt-contrib-copy": "0.4.1"
+		"cleaver": "0.8.4",
+		"grunt": "1.0.1",
+		"grunt-cli": "1.2.0",
+		"grunt-contrib-copy": "1.0.0"
 	},
 	"license": "MIT"
 }
