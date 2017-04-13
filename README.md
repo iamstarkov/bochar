@@ -1,6 +1,8 @@
 ## Bochar
 ### 30-second slideshows for hackers with blackjack and hookers. In fact, forget the slideshows!
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iamstarkov/bochar.svg)](https://greenkeeper.io/)
+
 --
 
 ## What is Bochar?
